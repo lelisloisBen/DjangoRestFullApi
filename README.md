@@ -81,3 +81,22 @@ Starting development server at [http://127.0.0.1:8000/]
 	"message": "Please contact John Doe for any informations"
 }
 ```
+
+### Start the server from existing folder
+```
+cd Desktop/DjangoRestApi
+python3 -m venv env
+source env/bin/activate
+cd leadmanager
+python manage.py runserver
+```
+
+### To Create super user for python admin
+```
+cd Desktop/DjangoRestApi
+python3 -m venv env
+source env/bin/activate
+cd leadmanager
+python manage.py createsuperuser --email samirbenzada@example.com --username samirbenzada
+```
+then enter a passord (tou...32)
